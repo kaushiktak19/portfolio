@@ -11,8 +11,8 @@ import "@/styles/globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Portfolio",
-  description: "My professional portfolio showcasing my work and experience",
+  title: "Kaushik Tak",
+  description: "My professional portfolio showcasing my work and experience"
 }
 
 export default function RootLayout({
@@ -23,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body className={cn("min-h-screen bg-background font-sans antialiased", inter.className)}>
+      <link rel="icon" href="./favicon.ico" sizes="any" />
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
           <div className="relative flex min-h-screen flex-col">
             <header className="container flex items-center justify-between py-4">
