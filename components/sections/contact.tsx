@@ -5,7 +5,7 @@ import { Github, Linkedin, Mail, X } from "lucide-react"
 const socialLinks = [
   {
     name: "GitHub",
-    url: "https://github.com/kaushikt19",
+    url: "https://github.com/kaushiktak19",
     icon: Github,
   },
   {
