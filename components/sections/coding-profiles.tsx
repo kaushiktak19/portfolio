@@ -1,28 +1,27 @@
+"use client"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Github, Code2 } from "lucide-react"
+import { Code, Code2 } from "lucide-react"
 
 const profiles = [
   {
-    platform: "GitHub",
-    username: "@kaushiktak",
-    url: "https://github.com/kaushiktak",
-    icon: Github,
-    stats: "Check out my repositories",
+    platform: "LeetCode",
+    username: "@kaushikt19",
+    url: "https://leetcode.com/u/kaushikt19/",
+    icon: "/leetcode.png", // Adjust path based on where you place your images
   },
   {
-    platform: "LeetCode",
-    username: "@kaushiktak",
-    url: "https://leetcode.com/kaushiktak",
-    icon: Code2,
-    stats: "350+ DSA problems solved",
+    platform: "CodeForces",
+    username: "@kaushikTak",
+    url: "https://codeforces.com/profile/kaushikTak",
+    icon: "/codeforces.png",
   },
   {
     platform: "CodeChef",
-    username: "@kaushiktak",
-    url: "https://codechef.com/users/kaushiktak",
-    icon: Code2,
-    stats: "Rating: 1467",
+    username: "@kaushiktak19",
+    url: "https://www.codechef.com/users/kaushiktak19",
+    icon: "/codechef.png",
   },
 ]
 
@@ -43,11 +42,14 @@ export function CodingProfilesSection() {
               >
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center text-center">
-                    <profile.icon className="mb-4 h-8 w-8 transition-all duration-300 group-hover/card:text-blue-600 dark:group-hover/card:text-blue-400" />
+                    <img
+                      src={profile.icon}
+                      alt={`${profile.platform} logo`}
+                      className="mb-4 h-8 w-8 object-contain transition-all duration-300 group-hover/card:scale-110"
+                    />
                     <h3 className="mb-2 font-semibold transition-colors duration-300 group-hover/card:text-blue-600 dark:group-hover/card:text-blue-400">
                       {profile.platform}
                     </h3>
-                    <p className="mb-4 text-sm text-muted-foreground">{profile.stats}</p>
                     <Button
                       variant="outline"
                       className="group/btn relative overflow-hidden transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400"
@@ -68,4 +70,3 @@ export function CodingProfilesSection() {
     </section>
   )
 }
-

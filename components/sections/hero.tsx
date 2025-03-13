@@ -6,17 +6,6 @@ export function HeroSection() {
   return (
     <div className="flex flex-col items-center justify-center space-y-2 py-6">
       <div className="group flex flex-col items-center gap-4 sm:flex-row sm:gap-6">
-        <div className="relative h-20 w-20 overflow-hidden rounded-full bg-gradient-to-br from-blue-100 via-blue-50 to-white p-[2px] transition-all duration-300 hover:shadow-lg dark:from-blue-900 dark:via-blue-950 dark:to-slate-900">
-          <div className="h-full w-full overflow-hidden rounded-full bg-gradient-to-br from-white to-blue-50 dark:from-slate-900 dark:to-slate-800">
-            <Image
-              src="/placeholder.svg"
-              alt="Kaushik Tak"
-              className="transition-transform duration-500 group-hover:scale-110"
-              priority
-              fill
-            />
-          </div>
-        </div>
         <h1 className="bg-gradient-to-r from-foreground via-foreground/90 to-foreground/70 bg-clip-text text-center text-3xl font-bold tracking-tight text-transparent transition-colors duration-300 hover:from-blue-600 hover:to-blue-400 dark:hover:from-blue-400 dark:hover:to-blue-600 sm:text-left sm:text-4xl md:text-5xl">
           Kaushik Tak
         </h1>
@@ -36,7 +25,7 @@ export function HeroSection() {
         asChild
       >
         <a
-          href="https://drive.google.com/file/d/1qZUvg26tzAdwigDbArZSRMcdT_gjngfO/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1QUV-FzKDPyc5Vbl2GHCkrEW-caKceUem/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >

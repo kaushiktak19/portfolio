@@ -14,7 +14,7 @@ export function AboutSection() {
               <div className="flex items-start gap-4">
                 <Code2 className="mt-1 h-7 w-7 text-primary/80" />
                 <p className="flex-grow text-m text-muted-foreground">
-                  I can build web apps—frontend, backend, host them on the cloud, and implement CI/CD pipelines. What else? Well, I can learn and adapt to new technologies. How do I know that? Well, that's the job, isn't it? So, yeah.
+                  I can develop web applications, including frontend and backend, deploy them to the cloud, and set up CI/CD pipelines. What else? Well, I can learn and adapt to new technologies. How do I know that? Well, that's the job, isn't it? So, yeah.
                 </p>
               </div>
             </div>
@@ -30,7 +30,7 @@ export function AboutSection() {
               <div className="flex items-start gap-4">
                 <Sparkles className="mt-1 h-5 w-5 text-primary/80" />
                 <p className="flex-grow text-m text-muted-foreground">
-                  Oh, and one more thing—lately, I've been experimenting with integrating powerful AI models and their APIs into web apps to create some cool generative AI experiences.
+                  Oh, and one more thing, lately, I've been experimenting with integrating powerful AI models and their APIs into web apps to create some cool generative AI experiences.
                 </p>
               </div>
             </div>

@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button"
 const socialLinks = [
   {
     name: "GitHub",
-    url: "https://github.com/kaushiktak",
+    url: "https://github.com/kaushikt19",
     icon: Github,
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/kaushiktak",
+    url: "https://www.linkedin.com/in/kaushik-tak-435388244/",
     icon: Linkedin,
   },
   {
@@ -18,8 +18,8 @@ const socialLinks = [
     icon: Mail,
   },
   {
-    name: "Twitter",
-    url: "https://twitter.com/kaushiktak",
+    name: "X",
+    url: "https://x.com/Kaushikt19",
     icon: X,
   },
 ]

@@ -1,22 +1,50 @@
+"use client"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
 const skills = {
-  Frontend: [
-    "HTML",
-    "CSS",
+  "Programming Languages": [
+    "C++",
+    "C",
     "JavaScript",
     "TypeScript",
-    "React",
-    "Next.js",
-    "Vue.js",
-    "Tailwind CSS",
-    "Material UI",
-    "Redux",
+    "Go",
+    "Python",
+    "Java"
   ],
-  Backend: ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB", "Redis", "GraphQL"],
-  "DevOps & Tools": ["Git", "Docker", "AWS", "CI/CD", "Linux", "Nginx", "Kubernetes", "Jenkins"],
-  "Soft Skills": ["Team Leadership", "Problem Solving", "Communication", "Project Management", "Agile Methodologies"],
+  "Frontend": [
+    "React.js",
+    "Next.js",
+    "Electron.js",
+    "ShadCN",
+    "Tailwind CSS",
+    "MUI"
+  ],
+  "Backend": [
+    "Node.js",
+    "Express.js",
+    "Socket.io",
+    "WebRTC",
+    "tRPC",
+    "RESTful APIs",
+    "MongoDB",
+    "PostgreSQL",
+    "Redis",
+    "MySQL",
+    "Firebase",
+    "Prisma",
+    "Langchain",
+    "Gemini API",
+  ],
+  "DevOps & Tools": [
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "GitHub Actions",
+    "Git",
+    "GitHub",
+  ]
 }
 
 export function SkillsSection() {
@@ -53,4 +81,3 @@ export function SkillsSection() {
     </section>
   )
 }
-

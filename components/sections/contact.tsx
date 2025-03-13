@@ -1,22 +1,22 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Github, Linkedin, Mail, X } from "lucide-react"
 
 const socialLinks = [
   {
     name: "GitHub",
-    url: "https://github.com/johndoe",
+    url: "https://github.com/kaushikt19",
     icon: Github,
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/johndoe",
+    url: "https://www.linkedin.com/in/kaushik-tak-435388244/",
     icon: Linkedin,
   },
   {
-    name: "Twitter",
-    url: "https://twitter.com/johndoe",
-    icon: Twitter,
+    name: "X",
+    url: "https://x.com/Kaushikt19",
+    icon: X,
   },
 ]
 
@@ -42,9 +42,9 @@ export function ContactSection() {
             <div className="text-center">
               <p className="mb-4 text-muted-foreground">Prefer email? Feel free to reach out directly:</p>
               <Button className="group/card overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"  asChild>
-                <a href="mailto:john@example.com">
+                <a href="mailto:kaushiktak19@gmail.com">
                   <Mail className="mr-2 h-4 w-4" />
-                  john@example.com
+                  kaushiktak19@gmail.com
                 </a>
               </Button>
             </div>
